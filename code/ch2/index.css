@@ -1,0 +1,143 @@
+/* 1.顶部 */
+.top{
+height:28px;
+background-color:#101010;
+}
+.top.container{
+    background-color:red;
+    height:28px;
+}
+.top .container p{
+    height:28px;
+    line-height:28px;
+    color:#f1f1f1;
+}
+.top .container p:first-child{
+    text-indent:210px;
+
+}
+.top .container p:first-child a{
+    
+    text-decoration:none;
+    color:#fff;
+}   
+.top .container p:nth-child(2){
+    margin-right:10px;
+}
+.top .container p:nth-child(2) .title,.top .container p:nth-child(2) .register{
+color:#ff6700;
+}
+.top .container p:nth-child(2) .login{
+    color:#fff;
+}
+/* 2.导航 */
+.nav{
+    height:80px;
+
+}
+.nav .search-shopcart-order{
+    margin-top:5px;
+    height:35px;
+}
+.nav .category-menu{
+    margin-top:15px;
+    height:30px;
+    background-color:red;
+}
+.nav .search-shopcart-order .search-input{
+    width:440px;
+    height:35px;
+    background-color:#ff6700;
+    margin-right:38px;
+    position:relative;
+}
+.nav .search-shopcart-order .search-input span{
+    display:inline-block;
+    width:50px;
+    height:35px;
+    position:absolute;
+    right:0;
+    top:0;
+    background-image:url('../../img/bgicon.png');
+}
+.nav .search-shopcart-order .search-input .search{
+    width:390px;
+    height:35px;
+    border:2px solid #ff6700;
+    text-indent:10px;
+    color:#ccc;
+    outline:none;
+}
+.nav .search-shopcart-order .shopcart-order{
+    width:200px;
+    height:35px;
+    background-color:pink;
+    font-size:0;
+}
+.nav .search-shopcart-order .shopcart-order button{
+    width:100px;
+    height:35px;
+    background-color:#ebebeb;
+    border:1px solid #ccc;
+    font-size:12px;
+    color:#333;
+}
+.nav .search-shopcart-order .shopcart-order button:nth-child(1){
+    background-color:#ff6700;
+    color:#fff;
+    background-image:url('../../img/a.png');
+    background-repeat:no-repeat;
+    background-position:3px 8px;
+}
+
+/* 3.分类导航和banner */
+.menu{
+    height:500px;
+    background-color:#333;
+}
+
+/* 4.今日推荐 */
+.recomend{
+    height:500px;
+    background-color:#ccc;
+}
+/* 5.电子书 */
+.books{
+    height:500px;
+    background-color:#333;
+}
+/* 6.服装 */
+.cloths{
+    height:500px;
+    background-color:#ccc;
+}
+/* 7.户外运动 */
+.sport{
+    height:500px;
+    background-color:#333;
+}
+/* 8.童装 */
+.children-cloths{
+    height:500px;
+    background-color:#ccc;
+}
+
+/* 9.家具日用 */
+.daily{
+    height:500px;
+    background-color:#333;
+}
+/* 10.推广商品 */
+.prometion{
+    height:500px;
+    background-color:#ccc;
+}
+/* 11.尾部 */
+.footer{
+    height:500px;
+    background-color:#333;
+}
+.container{
+    width:1200px;
+    margin:0 auto;
+}
